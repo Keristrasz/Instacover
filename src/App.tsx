@@ -47,7 +47,6 @@ function App() {
   // useEffect for fetching the data after the first render/mount
 
   useEffect(() => {
-    console.log("useEffect");
     fetchData();
   }, []);
 
